@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:thousand_project_idea_client/posts_categories_view.dart';
+import 'package:thousand_project_idea_client/RoomListScreen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
           contentPadding: EdgeInsets.all(15),
         ),
       ),
-      home: const PostsCategoriesView(),
+      home: const RoomListScreen(),
     );
   }
 }
